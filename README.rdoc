@@ -3,7 +3,7 @@ This is a hack from {link Music Hack Day London 2010}[http://wiki.musichackday.o
 
 It pulls the hottest downloadable uncompressed cc-licensed tracks from SoundCloud, analyses them with EchoNest, slices them on a bar basis with Sox and uploads the slices again to SoundCloud.
 
-This hack is similar to the SoundEchoCloudNest hack by Hannes and uses the EchoNest API wrapper fork by him.
+This hack is similar to the {link SoundEchoCloudNest}[http://github.com/hannestyden/SoundEchoCloudNest] hack by Hannes and uses the EchoNest API wrapper fork by him.
 
 = Useage =
 
