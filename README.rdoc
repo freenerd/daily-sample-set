@@ -1,26 +1,26 @@
-= Introduction =
+= Introduction
 This is a hack from {link Music Hack Day London 2010}[http://wiki.musichackday.org/index.php?title=Daily_Sample_Set].
 
 It pulls the hottest downloadable uncompressed cc-licensed tracks from SoundCloud, analyses them with EchoNest, slices them on a bar basis with Sox and uploads the slices again to SoundCloud.
 
 This hack is similar to the {link SoundEchoCloudNest}[http://github.com/hannestyden/SoundEchoCloudNest] hack by Hannes and uses the EchoNest API wrapper fork by him.
 
-= Useage =
+= Usage
 
- * Install the SoundCloud Ruby API Wrapper http://github.com/soundcloud/ruby-api-wrapper
- * Install Sox http://sox.sourceforge.net/
- * Install wget http://www.gnu.org/software/wget/
- * Install the Echonest API wrapper fork by Hannes http://github.com/hannestyden/ruby-echonest/
+* Install the SoundCloud Ruby API Wrapper http://github.com/soundcloud/ruby-api-wrapper
+* Install Sox http://sox.sourceforge.net/
+* Install wget http://www.gnu.org/software/wget/
+* Install the Echonest API wrapper fork by Hannes http://github.com/hannestyden/ruby-echonest/
 
- * Register for an Echonest API Key http://developer.echonest.com/docs/v4/
- * Register for a SoundCloud API Application http://soundcloud.com/developers
- * Get an SoundCloud Access Token | you can use this script for that http://github.com/jwagener/sc-shell/blob/master/soundcloud-authorized.rb
- * Put all these information in /setup.rb which should then have
-   * ECHONEST_API_KEY
-   * SC_CONSUMER_KEY
-   * SC_CONSUMER_SECRET
-   * SC_ACCESS_TOKEN
-   * SC_ACCESS_TOKEN_SECRET
+* Register for an Echonest API Key http://developer.echonest.com/docs/v4/
+* Register for a SoundCloud API Application http://soundcloud.com/developers
+* Get an SoundCloud Access Token | you can use this script for that http://github.com/jwagener/sc-shell/blob/master/soundcloud-authorized.rb
+* Put all these information in /setup.rb which should then have
+ ECHONEST_API_KEY
+ SC_CONSUMER_KEY
+ SC_CONSUMER_SECRET
+ SC_ACCESS_TOKEN
+ SC_ACCESS_TOKEN_SECRET
 
- * Create the folders /originals and /samples
- * Run with # ruby dailysampleset.rb
+* Create the folders /originals and /samples
+* Run with # ruby dailysampleset.rb
